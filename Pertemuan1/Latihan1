@@ -1,0 +1,5 @@
+angka = int(input("Masukkan angka yang anda pilih: "))
+
+for i in range(angka, -1, -1):
+    print(i, end=" ")   
+    
